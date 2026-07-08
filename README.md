@@ -8,7 +8,9 @@
 ![Framer Motion](https://img.shields.io/badge/Framer-Motion-black)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-A modern, responsive, and interactive personal portfolio built with **React.js**, **Vite**, **Tailwind CSS**, and **Framer Motion** to showcase my skills, projects, certifications, achievements, and professional journey.
+A modern, responsive, and interactive personal portfolio built with **React.js**, **Vite**, **Tailwind CSS**, and **Framer Motion**.
+
+Showcasing my skills, projects, certifications, achievements, GitHub profile, and professional journey.
 
 </div>
 
@@ -18,55 +20,74 @@ A modern, responsive, and interactive personal portfolio built with **React.js**
 
 This portfolio serves as my personal website where recruiters and developers can learn more about me, explore my projects, view my certifications, download my resume, and connect with me.
 
-It is designed with a modern UI, smooth animations, responsive layouts, and a clean user experience.
+It is designed with a modern UI, smooth animations, responsive layouts, and an excellent user experience.
 
 ---
 
+# 🚀 Live Demo
+
+> 🚧 Coming Soon (Vercel Deployment)
+
+---
 
 # 📸 Portfolio Preview
 
-<img src="screenshots/home.png" width="100%" />
+## 🏠 Home
+
+<img src="./screenshots/home.png" alt="Home" width="100%" />
 
 ---
 
-<img src="screenshots/about.png" width="100%" />
+## 👤 About
+
+<img src="./screenshots/about.png" alt="About" width="100%" />
 
 ---
 
-<img src="screenshots/skills.png" width="100%" />
+## 💻 Skills
+
+<img src="./screenshots/skills.png" alt="Skills" width="100%" />
 
 ---
 
-<img src="screenshots/projects.png" width="100%" />
+## 🚀 Projects
+
+<img src="./screenshots/projects.png" alt="Projects" width="100%" />
 
 ---
 
-<img src="screenshots/certificates.png" width="100%" />
+## 🏆 Certificates
+
+<img src="./screenshots/certificates.png" alt="Certificates" width="100%" />
 
 ---
 
-<img src="screenshots/achievements.png" width="100%" />
+## 🎖 Achievements
+
+<img src="./screenshots/achievements.png" alt="Achievements" width="100%" />
 
 ---
 
-<img src="screenshots/contact.png" width="100%" />
+## 📬 Contact
+
+<img src="./screenshots/contact.png" alt="Contact" width="100%" />
 
 ---
 
 # ✨ Features
 
 - 🎨 Modern UI Design
-- 📱 Fully Responsive
+- 📱 Fully Responsive Layout
 - 🌙 Dark / Light Mode
-- ⚡ Fast Performance using Vite
+- ⚡ Built with Vite
 - 🎭 Smooth Animations using Framer Motion
 - 👤 Professional Hero Section
-- 📖 About Me
+- 📖 About Me Section
 - 💻 Technical Skills
 - 💼 Experience Timeline
-- 🏆 Certifications
+- 🏆 Certifications Showcase
 - 🎯 Achievements
-- 📂 Projects Showcase
+- 📂 Featured Projects
 - 📊 GitHub Statistics
 - 📁 GitHub Repositories
 - 📄 Resume Download
@@ -75,38 +96,38 @@ It is designed with a modern UI, smooth animations, responsive layouts, and a cl
 
 ---
 
-# 🛠️ Tech Stack
+# 🛠 Tech Stack
 
-### Frontend
+## Frontend
 
 - React.js
 - JavaScript (ES6+)
 - Vite
 
-### Styling
+## Styling
 
 - Tailwind CSS
 - CSS3
 
-### Libraries
+## Libraries
 
 - Framer Motion
 - React Icons
 - Lucide React
 
-### Tools
+## Tools
 
 - Git
 - GitHub
 - VS Code
 
-### Deployment
+## Deployment
 
 - Vercel
 
 ---
 
-# 📂 Project Structure
+# 📂 Folder Structure
 
 ```text
 portfolio-website
@@ -114,6 +135,7 @@ portfolio-website
 ├── public
 │   ├── profile.png
 │   ├── resume.pdf
+│   └── favicon.svg
 │
 ├── screenshots
 │   ├── home.png
@@ -149,46 +171,39 @@ portfolio-website
 │   └── index.css
 │
 ├── package.json
+├── package-lock.json
 └── README.md
 ```
 
 ---
 
-# ⚙️ Installation
+# ⚙ Installation
 
-### Clone the repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/Greeshmita-23/portfolio-website.git
 ```
 
----
-
-### Navigate to the project
+## Navigate to Project
 
 ```bash
 cd portfolio-website
 ```
 
----
-
-### Install dependencies
+## Install Dependencies
 
 ```bash
 npm install
 ```
 
----
-
-### Start the development server
+## Start Development Server
 
 ```bash
 npm run dev
 ```
 
----
-
-### Build for production
+## Build for Production
 
 ```bash
 npm run build
@@ -198,9 +213,9 @@ npm run build
 
 # 👩‍💻 About Me
 
-I am a **Computer Science & Cybersecurity undergraduate** passionate about building modern, scalable, and user-friendly applications.
+I am a **Computer Science & Cybersecurity undergraduate** passionate about building scalable, modern, and user-friendly applications.
 
-My areas of interest include:
+### Areas of Interest
 
 - 🌐 Frontend Development
 - 💻 Full Stack Development
@@ -208,21 +223,21 @@ My areas of interest include:
 - 🤖 Artificial Intelligence
 - 🔐 Cybersecurity
 
-I enjoy continuously learning new technologies and building projects that solve real-world problems.
+I enjoy learning new technologies and building projects that solve real-world problems.
 
 ---
 
 # 📬 Contact
 
-📧 **Email**
+### 📧 Email
 
 greeshmita.bhogadi@gmail.com
 
-🐙 **GitHub**
+### 🐙 GitHub
 
 https://github.com/Greeshmita-23
 
-💼 **LinkedIn**
+### 💼 LinkedIn
 
 https://linkedin.com/in/greeshmita-bhogadi
 
@@ -230,19 +245,30 @@ https://linkedin.com/in/greeshmita-bhogadi
 
 # 🤝 Connect With Me
 
-If you like this project, feel free to connect with me on GitHub or LinkedIn.
-
 I'm always open to:
 
-- Internship Opportunities
-- Full-Time Roles
-- Open Source Contributions
-- Software Development Collaborations
+- 💼 Internship Opportunities
+- 👩‍💻 Full-Time Software Roles
+- 🌍 Open Source Contributions
+- 🤝 Software Development Collaborations
+
+If you like this project, feel free to connect with me on GitHub and LinkedIn.
 
 ---
 
-# 👩‍💻 Developed By
+# 📜 License
 
-## **Greeshmita Bhogadi**
+This project is open-source and available under the **MIT License**.
 
-🎓 B.Tech – Computer Science & Engineering
+---
+
+<div align="center">
+
+### 👩‍💻 Developed by
+
+# **Greeshmita Bhogadi**
+
+🎓 B.Tech – Computer Science & Cybersecurity
+
+
+</div>
