@@ -48,13 +48,13 @@ It is designed with a modern UI, smooth animations, responsive layouts, and a cl
 
 ---
 
-## 📂 Projects
+## 🚀 Projects
 
 ![Projects](./screenshots/projects.png)
 
 ---
 
-## 🏆 Certifications
+## 🏆 Certificates
 
 ![Certificates](./screenshots/certificates.png)
 
@@ -66,7 +66,7 @@ It is designed with a modern UI, smooth animations, responsive layouts, and a cl
 
 ---
 
-## 📞 Contact
+## 📩 Contact
 
 ![Contact](./screenshots/contact.png)
 
@@ -265,6 +265,3 @@ I'm always open to:
 ## **Greeshmita Bhogadi**
 
 🎓 B.Tech – Computer Science & Engineering
-
-
-
