@@ -24,53 +24,50 @@ It is designed with a modern UI, smooth animations, responsive layouts, and an e
 
 ---
 
-# 🚀 Live Demo
-
-> 🚧 Coming Soon (Vercel Deployment)
-
----
 
 # 📸 Portfolio Preview
 
 ## 🏠 Home
 
-<img src="./screenshots/home.png" alt="Home" width="100%" />
+<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/home.png" width="100%" alt="Home"/>
+
 
 ---
 
 ## 👤 About
 
-<img src="./screenshots/about.png" alt="About" width="100%" />
+<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/about.png" width="100%" alt="About"/>
 
 ---
 
 ## 💻 Skills
 
-<img src="./screenshots/skills.png" alt="Skills" width="100%" />
+<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/skills.png" width="100%" alt="Skills"/>
+
 
 ---
 
 ## 🚀 Projects
 
-<img src="./screenshots/projects.png" alt="Projects" width="100%" />
+<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/projects.png" width="100%" alt="Projects"/>
+
 
 ---
 
 ## 🏆 Certificates
 
-<img src="./screenshots/certificates.png" alt="Certificates" width="100%" />
+<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/certificates.png" width="100%" alt="Certificates"/>
 
----
 
 ## 🎖 Achievements
 
-<img src="./screenshots/achievements.png" alt="Achievements" width="100%" />
+<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/achievements.png" width="100%" alt="Achievements"/>
 
 ---
 
 ## 📬 Contact
 
-<img src="./screenshots/contact.png" alt="Contact" width="100%" />
+<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/contact.png" width="100%" alt="Contact"/>
 
 ---
 
