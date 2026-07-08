@@ -29,45 +29,43 @@ It is designed with a modern UI, smooth animations, responsive layouts, and an e
 
 ## 🏠 Home
 
-<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/home.png" width="100%" alt="Home"/>
-
+<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/home.png" width="100%" alt="Home">
 
 ---
 
 ## 👤 About
 
-<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/about.png" width="100%" alt="About"/>
+<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/about.png" width="100%" alt="About">
 
 ---
 
 ## 💻 Skills
 
-<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/skills.png" width="100%" alt="Skills"/>
-
+<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/skills.png" width="100%" alt="Skills">
 
 ---
 
 ## 🚀 Projects
 
-<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/projects.png" width="100%" alt="Projects"/>
-
+<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/projects.png" width="100%" alt="Projects">
 
 ---
 
 ## 🏆 Certificates
 
-<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/certificates.png" width="100%" alt="Certificates"/>
-
-
-## 🎖 Achievements
-
-<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/achievements.png" width="100%" alt="Achievements"/>
+<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/certificates.png" width="100%" alt="Certificates">
 
 ---
 
-## 📬 Contact
+## 🎯 Achievements
 
-<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/contact.png" width="100%" alt="Contact"/>
+<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/achievements.png" width="100%" alt="Achievements">
+
+---
+
+## 📩 Contact
+
+<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/contact.png" width="100%" alt="Contact">
 
 ---
 
