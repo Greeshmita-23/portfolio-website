@@ -22,53 +22,34 @@ It is designed with a modern UI, smooth animations, responsive layouts, and a cl
 
 ---
 
-# 🚀 Live Demo
-
-> 🔗 **Coming Soon (Vercel Deployment)**
-
----
 
 # 📸 Portfolio Preview
 
-## 🏠 Home
-
-![Home](./screenshots/home.png)
+<img src="screenshots/home.png" width="100%" />
 
 ---
 
-## 👤 About
-
-![About](./screenshots/about.png)
+<img src="screenshots/about.png" width="100%" />
 
 ---
 
-## 💻 Skills
-
-![Skills](./screenshots/skills.png)
+<img src="screenshots/skills.png" width="100%" />
 
 ---
 
-## 🚀 Projects
-
-![Projects](./screenshots/projects.png)
+<img src="screenshots/projects.png" width="100%" />
 
 ---
 
-## 🏆 Certificates
-
-![Certificates](./screenshots/certificates.png)
+<img src="screenshots/certificates.png" width="100%" />
 
 ---
 
-## 🎯 Achievements
-
-![Achievements](./screenshots/achievements.png)
+<img src="screenshots/achievements.png" width="100%" />
 
 ---
 
-## 📩 Contact
-
-![Contact](./screenshots/contact.png)
+<img src="screenshots/contact.png" width="100%" />
 
 ---
 
