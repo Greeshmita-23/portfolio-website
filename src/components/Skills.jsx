@@ -15,6 +15,7 @@ import {
   SiFlask,
   SiMongodb,
   SiMysql,
+  SiPostgresql,
   SiScikitlearn,
   SiPandas,
   SiNumpy,
@@ -22,6 +23,18 @@ import {
 
 function Skills() {
   const skillCategories = [
+    {
+      title: "Programming & CS",
+      skills: [
+        { icon: "☕", name: "Java" },
+        { icon: <FaPython />, name: "Python" },
+        { icon: <FaJs />, name: "JavaScript" },
+        { icon: "🧠", name: "Data Structures & Algorithms" },
+        { icon: "🔷", name: "Object-Oriented Programming" },
+        { icon: "💡", name: "Problem Solving" },
+      ],
+    },
+
     {
       title: "Frontend",
       skills: [
@@ -32,40 +45,62 @@ function Skills() {
         { icon: <SiTailwindcss />, name: "Tailwind CSS" },
       ],
     },
+
     {
-      title: "Backend",
+      title: "Backend & APIs",
       skills: [
-        { icon: <FaPython />, name: "Python" },
-        { icon: <SiFlask />, name: "Flask" },
         { icon: <FaNodeJs />, name: "Node.js" },
         { icon: <SiExpress />, name: "Express.js" },
+        { icon: <SiFlask />, name: "Flask" },
+        { icon: "🔗", name: "REST APIs" },
+        { icon: "🔐", name: "JWT Authentication" },
       ],
     },
+
     {
       title: "Database",
       skills: [
         { icon: <SiMysql />, name: "MySQL" },
+        { icon: <SiPostgresql />, name: "PostgreSQL" },
         { icon: <SiMongodb />, name: "MongoDB" },
       ],
     },
+
     {
-      title: "Cloud",
+      title: "Software Testing & Security",
       skills: [
-        { icon: <FaAws />, name: "AWS" },
+        { icon: "🧪", name: "Software Testing" },
+        { icon: "🔍", name: "Security Testing" },
+        { icon: "🛡️", name: "Vulnerability Assessment" },
+        { icon: "⚠️", name: "Penetration Testing" },
+        { icon: "🔎", name: "Threat Detection" },
+        { icon: "🧩", name: "Root Cause Analysis" },
       ],
     },
+
     {
       title: "Machine Learning",
       skills: [
         { icon: <SiScikitlearn />, name: "Scikit-learn" },
         { icon: <SiPandas />, name: "Pandas" },
         { icon: <SiNumpy />, name: "NumPy" },
+        { icon: "🤖", name: "Machine Learning" },
       ],
     },
+
+    {
+      title: "Cloud",
+      skills: [
+        { icon: <FaAws />, name: "AWS" },
+        { icon: "☁️", name: "Google Cloud" },
+      ],
+    },
+
     {
       title: "Tools",
       skills: [
         { icon: <FaGitAlt />, name: "Git & GitHub" },
+        { icon: "💻", name: "VS Code" },
         { icon: "🛡️", name: "Wireshark" },
         { icon: "📡", name: "Nmap" },
         { icon: "🐧", name: "Linux" },
@@ -80,15 +115,18 @@ function Skills() {
     >
       <div className="max-w-7xl mx-auto px-8">
 
+        {/* Section Heading */}
         <h2 className="text-5xl font-bold text-center mb-4">
           Technical Skills
         </h2>
 
-        <p className="text-center text-gray-600 dark:text-gray-300 mb-14 max-w-3xl mx-auto">
-          My technical expertise spans frontend development, backend
-          technologies, cloud computing, machine learning, and cybersecurity.
+        <p className="text-center text-gray-600 dark:text-gray-300 mb-14 max-w-4xl mx-auto">
+          My technical expertise spans programming fundamentals, full-stack
+          development, software testing, machine learning, cloud computing,
+          databases, and cybersecurity.
         </p>
 
+        {/* Skills Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
           {skillCategories.map((category) => (
@@ -110,6 +148,7 @@ function Skills() {
                     key={skill.name}
                     className="flex items-center gap-4 text-lg"
                   >
+
                     <span className="text-2xl text-blue-600">
                       {skill.icon}
                     </span>

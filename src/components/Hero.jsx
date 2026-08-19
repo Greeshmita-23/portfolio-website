@@ -24,13 +24,18 @@ function Hero() {
             Greeshmita Bhogadi
           </h1>
 
+          {/* Animated Roles */}
           <TypeAnimation
             sequence={[
+              "Software Engineer",
+              2000,
               "Full Stack Developer",
               2000,
-              "AI & Cloud Enthusiast",
+              "React Developer",
               2000,
-              "Computer Science & Cybersecurity Graduate",
+              "AI & Automation Enthusiast",
+              2000,
+              "Cloud Enthusiast",
               2000,
               "Open to Work",
               2000,
@@ -41,26 +46,30 @@ function Hero() {
             className="text-4xl font-bold text-yellow-300"
           />
 
+          {/* Introduction */}
           <p className="mt-8 text-xl leading-10 text-gray-200 max-w-xl">
-            I am a Computer Science & Cybersecurity graduate passionate about
-            Full Stack Development, Artificial Intelligence, Cloud Computing,
-            and Cybersecurity. I enjoy building scalable, secure, and
-            user-friendly applications that solve real-world problems.
-            Through hands-on projects, professional certifications, and
-            continuous learning, I strive to develop innovative software
-            solutions while growing as a software engineer.
+            I am a Computer Science graduate with hands-on experience in
+            full-stack development, Artificial Intelligence, machine learning,
+            cloud computing, and cybersecurity. I enjoy building practical,
+            scalable, and user-friendly software solutions using modern
+            technologies. I am particularly interested in software quality,
+            automation, AI-driven solutions, and solving real-world problems
+            through technology.
           </p>
 
+          {/* Action Buttons */}
           <div className="flex flex-wrap gap-5 mt-10">
 
+            {/* Resume */}
             <a
               href="/resume.pdf"
               download
-              className="bg-white text-blue-700 px-6 py-3 rounded-xl font-bold hover:scale-105 transition duration-300"
+              className="bg-white text-blue-700 px-6 py-3 rounded-xl font-bold hover:scale-105 transition duration-300 shadow-lg"
             >
               Download Resume
             </a>
 
+            {/* Projects */}
             <a
               href="#projects"
               className="border-2 border-white px-6 py-3 rounded-xl hover:bg-white hover:text-blue-700 transition duration-300"
@@ -70,29 +79,36 @@ function Hero() {
 
           </div>
 
+          {/* Social Links */}
           <div className="flex gap-6 text-3xl mt-10">
 
+            {/* GitHub */}
             <a
               href="https://github.com/Greeshmita-23"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-yellow-300 transition"
+              aria-label="GitHub"
+              className="hover:text-yellow-300 hover:scale-110 transition duration-300"
             >
               <FaGithub />
             </a>
 
+            {/* LinkedIn */}
             <a
               href="https://www.linkedin.com/in/greeshmita-bhogadi"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-yellow-300 transition"
+              aria-label="LinkedIn"
+              className="hover:text-yellow-300 hover:scale-110 transition duration-300"
             >
               <FaLinkedin />
             </a>
 
+            {/* Email */}
             <a
               href="mailto:greeshmita.bhogadi@gmail.com"
-              className="hover:text-yellow-300 transition"
+              aria-label="Email"
+              className="hover:text-yellow-300 hover:scale-110 transition duration-300"
             >
               <FaEnvelope />
             </a>
@@ -100,7 +116,7 @@ function Hero() {
           </div>
         </motion.div>
 
-        {/* Right Side */}
+        {/* Right Side - Profile Image */}
         <motion.div
           initial={{ x: 100, opacity: 0 }}
           animate={{
