@@ -63,7 +63,7 @@ The screenshots below showcase the main sections of the portfolio. Make sure the
 
 ### 📩 Contact
 
-[Contact Section](screenshots/Contact.png)
+![Contact Section](screenshots/Contact.png)
 
 ---
 
