@@ -2,141 +2,128 @@
 
 <div align="center">
 
-![React](https://img.shields.io/badge/React-19-blue?logo=react)
-![Vite](https://img.shields.io/badge/Vite-Frontend-purple?logo=vite)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Styling-38BDF8?logo=tailwind-css)
-![Framer Motion](https://img.shields.io/badge/Framer-Motion-black)
-![License](https://img.shields.io/badge/License-MIT-green)
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-Frontend-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-Styling-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-Animations-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge&logo=opensourceinitiative&logoColor=white)
 
-A modern, responsive, and interactive personal portfolio built with **React.js**, **Vite**, **Tailwind CSS**, and **Framer Motion**.
+### A modern, responsive portfolio showcasing my projects, technical skills, and professional journey.
 
-Showcasing my skills, projects, certifications, achievements, GitHub profile, and professional journey.
+Built with **React.js, Vite, Tailwind CSS, and Framer Motion**.
+
+[🌐 Live Portfolio](https://portfolio-website-chi-flame-86.vercel.app/) · [💻 GitHub Repository](https://github.com/Greeshmita-23/portfolio-website) · [💼 LinkedIn](https://www.linkedin.com/in/greeshmita-bhogadi/)
 
 </div>
 
 ---
 
-# 📖 About
+## 📖 About the Project
 
-This portfolio serves as my personal website where recruiters and developers can learn more about me, explore my projects, view my certifications, download my resume, and connect with me.
+This is my personal developer portfolio, created to showcase my background in Computer Science and Cybersecurity, technical skills, projects, certifications, and professional interests.
 
-It is designed with a modern UI, smooth animations, responsive layouts, and an excellent user experience.
+The website features a responsive interface, smooth animations, project showcases, GitHub integration, and convenient access to my resume and contact information.
 
----
+It serves as a central place for recruiters, developers, and collaborators to explore my work and connect with me.
+
 ## 🌐 Live Demo
 
+**Explore the portfolio:**  
 🔗 https://portfolio-website-chi-flame-86.vercel.app/
 
 ---
 
-# 📸 Portfolio Preview
+## 📸 Portfolio Preview
 
-## 🏠 Home
+The screenshots below showcase the main sections of the portfolio. Make sure the image paths match the actual filenames in your `screenshots/` folder.
 
-<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/home.png" width="100%" alt="Home">
+### 🏠 Home
 
----
+![Portfolio Home](screenshots/home.png)
 
-## 👤 About
+### 👤 About
 
-<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/about.png" width="100%" alt="About">
+![About Section](screenshots/about.png)
 
----
+### 🛠️ Skills
 
-## 💻 Skills
+![Technical Skills](screenshots/skills.png)
 
-<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/skills.png" width="100%" alt="Skills">
+### 🚀 Projects
 
----
+![Featured Projects](screenshots/projects.png)
 
-## 🚀 Projects
+### 🏆 Certifications
 
-<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/projects.png" width="100%" alt="Projects">
+![Certifications](screenshots/certificates.png)
 
----
+### 🎯 Achievements
 
-## 🏆 Certificates
+![Achievements](screenshots/achievements.png)
 
-<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/certificates.png" width="100%" alt="Certificates">
+### 📩 Contact
 
----
-
-## 🎯 Achievements
-
-<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/achievements.png" width="100%" alt="Achievements">
+![Contact Section](screenshots/contact.png)
 
 ---
 
-## 📩 Contact
+## ✨ Features
 
-<img src="https://raw.githubusercontent.com/Greeshmita-23/portfolio-website/main/screenshots/contact.png" width="100%" alt="Contact">
-
----
-
-# ✨ Features
-
-- 🎨 Modern UI Design
-- 📱 Fully Responsive Layout
-- 🌙 Dark / Light Mode
-- ⚡ Built with Vite
-- 🎭 Smooth Animations using Framer Motion
-- 👤 Professional Hero Section
-- 📖 About Me Section
-- 💻 Technical Skills
-- 💼 Experience Timeline
-- 🏆 Certifications Showcase
-- 🎯 Achievements
-- 📂 Featured Projects
-- 📊 GitHub Statistics
-- 📁 GitHub Repositories
-- 📄 Resume Download
-- 📬 Contact Section
-- 🔗 Social Media Links
+- 🎨 Modern, clean, and responsive user interface
+- 📱 Mobile-friendly layout
+- 🌙 Dark and light mode
+- ⚡ Fast development and production builds with Vite
+- 🎭 Smooth animations using Framer Motion
+- 👋 Professional introduction and hero section
+- 👤 About me and technical interests
+- 🛠️ Technical skills showcase
+- 💼 Experience and professional journey
+- 🏆 Certifications and achievements sections
+- 🚀 Featured projects with project details
+- 📊 GitHub statistics and repository links
+- 📄 Resume access and download
+- 📬 Contact section
+- 🔗 Social and professional profile links
 
 ---
 
-# 🛠 Tech Stack
+## 🛠️ Tech Stack
 
-## Frontend
-
+### Frontend
 - React.js
 - JavaScript (ES6+)
 - Vite
+- HTML5
 
-## Styling
-
+### Styling
 - Tailwind CSS
 - CSS3
 
-## Libraries
-
+### Libraries
 - Framer Motion
 - React Icons
 - Lucide React
 
-## Tools
-
+### Development Tools
+- Visual Studio Code
 - Git
 - GitHub
-- VS Code
+- npm
 
-## Deployment
-
+### Deployment
 - Vercel
 
 ---
 
-# 📂 Folder Structure
+## 📂 Project Structure
 
 ```text
-portfolio-website
-│
-├── public
+portfolio-website/
+├── public/
 │   ├── profile.png
 │   ├── resume.pdf
 │   └── favicon.svg
-│
-├── screenshots
+├── screenshots/
 │   ├── home.png
 │   ├── about.png
 │   ├── skills.png
@@ -144,13 +131,11 @@ portfolio-website
 │   ├── certificates.png
 │   ├── achievements.png
 │   └── contact.png
-│
-├── src
-│   ├── assets
-│   │   ├── images
-│   │   └── certificates
-│   │
-│   ├── components
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── certificates/
+│   ├── components/
 │   │   ├── Navbar.jsx
 │   │   ├── Hero.jsx
 │   │   ├── About.jsx
@@ -164,110 +149,73 @@ portfolio-website
 │   │   ├── Resume.jsx
 │   │   ├── Contact.jsx
 │   │   └── Footer.jsx
-│   │
 │   ├── App.jsx
 │   ├── main.jsx
 │   └── index.css
-│
+├── index.html
 ├── package.json
 ├── package-lock.json
 └── README.md
 ```
 
+*Note: This is an illustrative structure. Adjust it to match the files and folders in your actual repository.*
+
 ---
 
-# ⚙ Installation
+## ⚙️ Getting Started
 
-## Clone the Repository
+Follow these steps to run the portfolio locally.
+
+### Prerequisites
+
+Install the following before starting:
+
+- [Node.js and npm](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+- A code editor such as [Visual Studio Code](https://code.visualstudio.com/)
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Greeshmita-23/portfolio-website.git
 ```
 
-## Navigate to Project
+### 2. Navigate to the Project Folder
 
 ```bash
 cd portfolio-website
 ```
 
-## Install Dependencies
+### 3. Install Dependencies
 
 ```bash
 npm install
 ```
 
-## Start Development Server
+### 4. Start the Development Server
 
 ```bash
 npm run dev
 ```
 
-## Build for Production
+Open the local URL displayed in your terminal, usually `http://localhost:5173/`.
+
+### 5. Create a Production Build
 
 ```bash
 npm run build
 ```
 
----
+Vite generates the production-ready files in the `dist/` directory.
 
-# 👩‍💻 About Me
+### 6. Preview the Production Build
 
-I am a **Computer Science & Cybersecurity undergraduate** passionate about building scalable, modern, and user-friendly applications.
+```bash
+npm run preview
+```
 
-### Areas of Interest
-
-- 🌐 Frontend Development
-- 💻 Full Stack Development
-- ☁️ Cloud Computing
-- 🤖 Artificial Intelligence
-- 🔐 Cybersecurity
-
-I enjoy learning new technologies and building projects that solve real-world problems.
+Use the local URL shown in your terminal to check the production build.
 
 ---
 
-# 📬 Contact
-
-### 📧 Email
-
-greeshmita.bhogadi@gmail.com
-
-### 🐙 GitHub
-
-https://github.com/Greeshmita-23
-
-### 💼 LinkedIn
-
-https://linkedin.com/in/greeshmita-bhogadi
-
----
-
-# 🤝 Connect With Me
-
-I'm always open to:
-
-- 💼 Internship Opportunities
-- 👩‍💻 Full-Time Software Roles
-- 🌍 Open Source Contributions
-- 🤝 Software Development Collaborations
-
-If you like this project, feel free to connect with me on GitHub and LinkedIn.
-
----
-
-# 📜 License
-
-This project is open-source and available under the **MIT License**.
-
----
-
-<div align="center">
-
-### 👩‍💻 Developed by
-
-# **Greeshmita Bhogadi**
-
-🎓 B.Tech – Computer Science & Cybersecurity
-
-
-</div>
+## 🚀 Deployment
