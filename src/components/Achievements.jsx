@@ -1,129 +1,85 @@
-import {
-  Award,
-  GraduationCap,
-  Briefcase,
-  ShieldCheck,
-  Cloud,
-  Brain,
-  Laptop,
-  Network,
-} from "lucide-react";
 
-function Achievements() {
-  const achievements = [
-  {
-    title: "8.4 CGPA",
-    description: "B.Tech in Computer Science & Cybersecurity",
-    icon: <GraduationCap size={40} />,
-    color: "from-indigo-500 to-purple-600",
-  },
+import { Award, Code2, ShieldCheck, GraduationCap } from "lucide-react";
 
+const achievements = [
   {
-    title: "7 Professional Certifications",
+    icon: ShieldCheck,
+    title: "Cybersecurity Internship",
     description:
-      "AWS • Google Cloud • JNCIA • Cisco • AI • Power BI • Automation Anywhere",
-    icon: <Award size={40} />,
-    color: "from-yellow-500 to-orange-500",
+      "Completed the Cisco AICTE Virtual Internship Program, gaining exposure to network analysis, vulnerability assessment, and security practices.",
+    label: "Professional Learning",
   },
-
   {
-    title: "5+ Major Projects",
+    icon: Code2,
+    title: "Full Stack Development Projects",
     description:
-      "SentinelRx, FoodieHub, Portfolio, Student Result Management System & AI Applications",
-    icon: <Briefcase size={40} />,
-    color: "from-green-500 to-emerald-600",
+      "Built projects involving frontend interfaces, backend APIs, database integration, and application functionality.",
+    label: "Project Milestone",
   },
-
   {
-    title: "Cisco AICTE Intern",
+    icon: Award,
+    title: "AI & Data Science Learning",
     description:
-      "Completed a 5-month Cybersecurity Virtual Internship Program",
-    icon: <ShieldCheck size={40} />,
-    color: "from-blue-500 to-cyan-600",
+      "Developed knowledge of AI, data science, and data visualization through technical learning and practical work.",
+    label: "Technical Learning",
   },
-
   {
-    title: "Cloud Computing",
+    icon: GraduationCap,
+    title: "Computer Science Graduate",
     description:
-      "AWS Certified Cloud Practitioner & Google Cloud Associate Cloud Engineer",
-    icon: <Cloud size={40} />,
-    color: "from-sky-500 to-blue-600",
-  },
-
-  {
-    title: "Artificial Intelligence",
-    description:
-      "Completed Data Science & AI Training with practical Machine Learning projects",
-    icon: <Brain size={40} />,
-    color: "from-pink-500 to-rose-600",
-  },
-
-  {
-    title: "Full Stack Developer",
-    description:
-      "React • Node.js • Express.js • MongoDB • Flask • Tailwind CSS",
-    icon: <Laptop size={40} />,
-    color: "from-teal-500 to-green-600",
-  },
-
-  {
-    title: "Networking & Security",
-    description:
-      "JNCIA-Junos Certified with hands-on experience in Wireshark & Nmap",
-    icon: <Network size={40} />,
-    color: "from-violet-500 to-indigo-600",
+      "Completed a B.Tech in Computer Science and Cybersecurity at KL University in 2025.",
+    label: "Education",
   },
 ];
 
+function Achievements() {
   return (
     <section
       id="achievements"
-      className="py-20 bg-white dark:bg-gray-900"
+      className="bg-[#101a16] px-6 py-20 text-[#f0f5f1] sm:px-8"
     >
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="mx-auto max-w-6xl">
+        <div className="mb-12 text-center">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.25em] text-[#a3e635]">
+            My Journey
+          </p>
+          <h2 className="text-3xl font-bold sm:text-4xl">
+            Achievements & Milestones
+          </h2>
+          <p className="mx-auto mt-4 max-w-2xl text-[#aab8af]">
+            Highlights from my education, technical learning, and
+            software development journey.
+          </p>
+        </div>
 
-        <h2 className="text-5xl font-bold text-center mb-4">
-          Achievements
-        </h2>
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
+          {achievements.map((item) => {
+            const Icon = item.icon;
 
-        <p className="text-center text-gray-600 dark:text-gray-300 mb-16">
-          Highlights of my academic journey, certifications, technical skills,
-          and project experience.
-        </p>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-
-          {achievements.map((item, index) => (
-
-            <div
-              key={index}
-              className="bg-gray-100 dark:bg-gray-800 rounded-3xl shadow-xl hover:shadow-2xl hover:-translate-y-3 transition-all duration-300 overflow-hidden"
-            >
-
-              <div className={`h-2 bg-gradient-to-r ${item.color}`}></div>
-
-              <div className="p-8 text-center">
-
-                <div className="flex justify-center text-blue-600 mb-6">
-                  {item.icon}
+            return (
+              <article
+                key={item.title}
+                className="rounded-2xl border border-[#304438] bg-[#17251e] p-6 transition duration-300 hover:-translate-y-1 hover:border-[#a3e635]/70"
+              >
+                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-[#26392d] text-[#a3e635]">
+                  <Icon size={24} />
                 </div>
 
-                <h3 className="text-2xl font-bold mb-3">
+                <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-[#a3e635]">
+                  {item.label}
+                </p>
+
+                <h3 className="text-xl font-bold">
                   {item.title}
                 </h3>
 
-                <p className="text-gray-600 dark:text-gray-300">
+                <p className="mt-3 leading-7 text-[#aab8af]">
                   {item.description}
                 </p>
-
-              </div>
-
-            </div>
-
-          ))}
-
+              </article>
+            );
+          })}
         </div>
-
       </div>
     </section>
   );

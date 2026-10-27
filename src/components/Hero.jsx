@@ -1,145 +1,156 @@
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import {
+  FiArrowUpRight,
+  FiDownload,
+  FiGithub,
+  FiLinkedin,
+  FiMail,
+} from "react-icons/fi";
 
-function Hero() {
+const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen bg-gradient-to-r from-blue-900 via-indigo-800 to-purple-900 text-white flex items-center justify-center px-8"
+      className="relative flex min-h-screen items-center overflow-hidden bg-[#0b0d0c] px-6 pb-16 pt-28 text-white sm:px-10 lg:px-20"
     >
-      <div className="max-w-7xl w-full grid md:grid-cols-2 gap-12 items-center">
+      {/* Background glow */}
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_78%_40%,rgba(52,211,153,0.12),transparent_38%)]" />
 
-        {/* Left Side */}
+      <div className="pointer-events-none absolute right-[10%] top-[20%] h-72 w-72 rounded-full bg-emerald-400/5 blur-3xl sm:h-96 sm:w-96" />
+
+      <div className="relative z-10 mx-auto grid w-full max-w-7xl items-center gap-12 lg:grid-cols-[1.15fr_0.85fr]">
+        {/* Introduction */}
         <motion.div
-          initial={{ x: -100, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: 1 }}
+          initial={{ opacity: 0, y: 24 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          className="order-2 lg:order-1"
         >
-          <p className="text-2xl mb-3">
-            👋 Hello, I'm
+          <p className="mb-5 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.24em] text-emerald-300">
+            <span className="h-px w-8 bg-emerald-400" />
+            Developer Portfolio / 2026
           </p>
 
-          <h1 className="text-7xl font-extrabold leading-tight mb-6">
-            Greeshmita Bhogadi
+          <h1 className="text-5xl font-extrabold leading-[1.04] tracking-tight sm:text-6xl lg:text-7xl xl:text-8xl">
+            Greeshmita
+            <span className="mt-2 block bg-gradient-to-r from-white to-emerald-300 bg-clip-text text-transparent">
+              Bhogadi.
+            </span>
           </h1>
 
-          {/* Animated Roles */}
-          <TypeAnimation
-            sequence={[
-              "Software Engineer",
-              2000,
-              "Full Stack Developer",
-              2000,
-              "React Developer",
-              2000,
-              "AI & Automation Enthusiast",
-              2000,
-              "Cloud Enthusiast",
-              2000,
-              "Open to Work",
-              2000,
-            ]}
-            wrapper="span"
-            speed={50}
-            repeat={Infinity}
-            className="text-4xl font-bold text-yellow-300"
-          />
-
-          {/* Introduction */}
-          <p className="mt-8 text-xl leading-10 text-gray-200 max-w-xl">
-            I am a Computer Science graduate with hands-on experience in
-            full-stack development, Artificial Intelligence, machine learning,
-            cloud computing, and cybersecurity. I enjoy building practical,
-            scalable, and user-friendly software solutions using modern
-            technologies. I am particularly interested in software quality,
-            automation, AI-driven solutions, and solving real-world problems
-            through technology.
-          </p>
-
-          {/* Action Buttons */}
-          <div className="flex flex-wrap gap-5 mt-10">
-
-            {/* Resume */}
-            <a
-              href="/resume.pdf"
-              download
-              className="bg-white text-blue-700 px-6 py-3 rounded-xl font-bold hover:scale-105 transition duration-300 shadow-lg"
-            >
-              Download Resume
-            </a>
-
-            {/* Projects */}
-            <a
-              href="#projects"
-              className="border-2 border-white px-6 py-3 rounded-xl hover:bg-white hover:text-blue-700 transition duration-300"
-            >
-              View Projects
-            </a>
-
+          <div className="mt-6 text-lg font-medium text-gray-300 sm:text-xl">
+            I build{" "}
+            <span className="text-emerald-300">
+              <TypeAnimation
+                sequence={[
+                  "digital experiences",
+                  1800,
+                  "full-stack applications",
+                  1800,
+                  "AI-powered ideas",
+                  1800,
+                  "secure technology",
+                  1800,
+                ]}
+                wrapper="span"
+                speed={50}
+                repeat={Infinity}
+              />
+            </span>
+            <span className="text-emerald-400">_</span>
           </div>
 
-          {/* Social Links */}
-          <div className="flex gap-6 text-3xl mt-10">
+          {/* Smaller introduction paragraph */}
+          <p className="mt-4 max-w-md text-[13px] leading-[1.65] text-gray-400 sm:text-sm">
+            Computer Science and Cybersecurity graduate exploring full-stack
+            development, intelligent systems, and secure digital experiences.
+            I enjoy turning ideas into practical projects and continuously
+            learning new technologies.
+          </p>
 
-            {/* GitHub */}
+          {/* Action buttons */}
+          <div className="mt-7 flex flex-wrap gap-3">
+            <a
+              href="#projects"
+              className="inline-flex items-center gap-2 rounded-lg bg-emerald-100 px-5 py-3 text-sm font-semibold text-[#0b0d0c] transition hover:bg-emerald-200"
+            >
+              Explore My Work <FiArrowUpRight size={17} />
+            </a>
+
+            <a
+              href="/resume.pdf"
+              download="Greeshmita_Bhogadi_Resume.pdf"
+              className="inline-flex items-center gap-2 rounded-lg border border-white/15 bg-white/[0.03] px-5 py-3 text-sm font-semibold text-gray-200 transition hover:border-emerald-300 hover:text-emerald-300"
+            >
+              <FiDownload size={16} /> Download Resume
+            </a>
+          </div>
+
+          {/* Social links */}
+          <div className="mt-7 flex flex-wrap items-center gap-5 text-sm text-gray-400">
             <a
               href="https://github.com/Greeshmita-23"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="GitHub"
-              className="hover:text-yellow-300 hover:scale-110 transition duration-300"
+              className="inline-flex items-center gap-2 transition hover:text-emerald-300"
             >
-              <FaGithub />
+              <FiGithub size={17} /> GitHub
             </a>
 
-            {/* LinkedIn */}
             <a
-              href="https://www.linkedin.com/in/greeshmita-bhogadi"
+              href="https://www.linkedin.com/in/greeshmita-bhogadi/"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="LinkedIn"
-              className="hover:text-yellow-300 hover:scale-110 transition duration-300"
+              className="inline-flex items-center gap-2 transition hover:text-emerald-300"
             >
-              <FaLinkedin />
+              <FiLinkedin size={17} /> LinkedIn
             </a>
 
-            {/* Email */}
             <a
               href="mailto:greeshmita.bhogadi@gmail.com"
-              aria-label="Email"
-              className="hover:text-yellow-300 hover:scale-110 transition duration-300"
+              className="inline-flex items-center gap-2 transition hover:text-emerald-300"
             >
-              <FaEnvelope />
+              <FiMail size={17} /> Email
             </a>
-
           </div>
         </motion.div>
 
-        {/* Right Side - Profile Image */}
+        {/* Profile image */}
         <motion.div
-          initial={{ x: 100, opacity: 0 }}
-          animate={{
-            x: 0,
-            opacity: 1,
-            y: [0, -12, 0],
-          }}
-          transition={{
-            duration: 5,
-            repeat: Infinity,
-          }}
-          className="flex justify-center"
+          initial={{ opacity: 0, scale: 0.96 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.9, delay: 0.15 }}
+          className="relative order-1 mx-auto w-full max-w-[280px] sm:max-w-sm lg:order-2 lg:max-w-md"
         >
-          <img
-            src="/profile.png"
-            alt="Greeshmita Bhogadi"
-            className="w-96 h-96 rounded-full border-8 border-white shadow-2xl object-cover hover:scale-105 transition duration-500"
-          />
-        </motion.div>
+          <div className="absolute -inset-3 rounded-[48%_48%_18px_18px] border border-emerald-300/10" />
 
+          <div className="relative aspect-[4/5] overflow-hidden rounded-[48%_48%_18px_18px] border border-white/15 bg-[#171c19] shadow-2xl shadow-black/40">
+            <img
+              src="/profile.png"
+              alt="Greeshmita Bhogadi"
+              className="h-full w-full object-cover object-top"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0b0d0c]/40 via-transparent to-transparent" />
+          </div>
+
+          <div className="absolute -bottom-4 -left-5 hidden rounded-xl border border-white/10 bg-[#171c19] px-5 py-4 shadow-xl sm:block">
+            <p className="text-xs text-gray-400">Graduation</p>
+            <p className="mt-1 text-sm font-semibold text-emerald-300">
+              B.Tech · 2025
+            </p>
+          </div>
+
+          <div className="absolute -right-4 top-10 hidden rounded-xl border border-white/10 bg-[#171c19] px-4 py-3 shadow-xl sm:block">
+            <p className="text-xs text-gray-400">Focus</p>
+            <p className="mt-1 text-sm font-semibold text-white">
+              Full Stack · AI
+            </p>
+          </div>
+        </motion.div>
       </div>
     </section>
   );
-}
+};
 
 export default Hero;
