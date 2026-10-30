@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import {
@@ -61,7 +62,7 @@ const Hero = () => {
             <span className="text-emerald-400">_</span>
           </div>
 
-          {/* Smaller introduction paragraph */}
+          {/* Introduction paragraph */}
           <p className="mt-4 max-w-md text-[13px] leading-[1.65] text-gray-400 sm:text-sm">
             Computer Science and Cybersecurity graduate exploring full-stack
             development, intelligent systems, and secure digital experiences.
@@ -78,9 +79,10 @@ const Hero = () => {
               Explore My Work <FiArrowUpRight size={17} />
             </a>
 
+            {/* Updated Resume Download Link */}
             <a
-              href="/resume.pdf"
-              download="Greeshmita_Bhogadi_Resume.pdf"
+              href="/Greeshmita_Resume.pdf"
+              download="Greeshmita_Resume.pdf"
               className="inline-flex items-center gap-2 rounded-lg border border-white/15 bg-white/[0.03] px-5 py-3 text-sm font-semibold text-gray-200 transition hover:border-emerald-300 hover:text-emerald-300"
             >
               <FiDownload size={16} /> Download Resume
