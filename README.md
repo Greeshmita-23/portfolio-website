@@ -219,3 +219,14 @@ Use the local URL shown in your terminal to check the production build.
 ---
 
 ## 🚀 Deployment
+
+---
+
+## 🏗️ Interactive Project Architecture
+
+Explore the interactive architecture diagram of my portfolio website, generated using GitDiagram.
+
+🔗 **[View Interactive Architecture](https://gitdiagram.com/greeshmita-23/portfolio-website)**
+
+The diagram provides a visual overview of the project's folder structure, React components, application flow, and component relationships.
+
